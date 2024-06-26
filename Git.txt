@@ -1,0 +1,8 @@
+git init
+git add .
+git status      (a la nube)
+git commit -m "mensaje correcto"
+git branch -M main
+git remote add origin https://github.com/leandrojuan/clase.git
+git push -u origin main        (o)       git push -u origin master  
+   

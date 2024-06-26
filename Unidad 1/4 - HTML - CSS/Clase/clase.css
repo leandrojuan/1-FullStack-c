@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del Navbar */
+.navbar {
+    background-color: rgb(125, 122, 122);
+    color: azure;
+    padding: 10px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(238, 238, 180);
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin-right: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: darksalmon;
+    transition: color 0.9s ease;
+}
+
+.nav-links li a:hover {
+    color: rgb(208, 147, 66);    
+}
